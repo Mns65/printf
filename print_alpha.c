@@ -31,4 +31,8 @@ int print_char(va_list l, flags_t *f)
 	(void)f;
 	_putchar(va_arg(l, int));
 	return (1);
+<<<<<<< HEAD
+}
+=======
 } 
+>>>>>>> abc985ebc1f76085c023af70ba833707e53d71c2
