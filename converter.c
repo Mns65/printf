@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> c02c8ea36d385d526b5359a87069f4daee5c376d
 #include "main.h"
 /**
  * convert - converts number and base into string
