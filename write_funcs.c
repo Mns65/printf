@@ -1,8 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
-
-=======
->>>>>>> 0f26d6bc92ee78024e6ef0aaccd69b694495110c
 #include <unistd.h>
 
 /**
@@ -28,11 +24,8 @@ int _putchar(char c)
 		buf[i] = c;
 		i++;
 	}
-<<<<<<< HEAD
-	return (1);
-=======
-	return (i);
->>>>>>> 0f26d6bc92ee78024e6ef0aaccd69b694495110c
+        return (1);
+
 }
 
 /**
@@ -47,9 +40,6 @@ int _puts(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		_putchar(str[i]);
 	return (i);
-<<<<<<< HEAD
-}
-=======
 
 } 
->>>>>>> 0f26d6bc92ee78024e6ef0aaccd69b694495110c
+
