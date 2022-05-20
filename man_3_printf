@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 .TH man 3 "19 May 2022""ALX SCHOOL "_PRINTF"
-=======
 TH man 3 "19 May 2022" "ALX SCHOOL" "_PRINTF"
->>>>>>> 02157623c49717c0cc3da48e3694531046a1ef47
 .SH NAME
 .B _printf
 - formatted output conversion
@@ -16,11 +13,8 @@ TH man 3 "19 May 2022" "ALX SCHOOL" "_PRINTF"
 The function _printf is a variadic function that produces a string according to a
 .I format
 and prints it to the standard output, much like the C standard library function printf. It can receive a variable number of arguments.
-<<<<<<< HEAD
-This function has been created in the context of a first-year project for ALX School.
-=======
-This function has been created in the context of a first-year project for Alx School.
->>>>>>> 02157623c49717c0cc3da48e3694531046a1ef47
+This function has been created in the context of a first-year project for ALX School
+This function has been created in the context of a first-year project for Alx School
 .sp
 .B Return value
 .sp
@@ -35,11 +29,8 @@ However, this format string can contain
 .I conversion specifiers.
 These start with a %, and are followed with a character (see
 .I conversion specifiers
-). Special characters like a new line are escaped, for example _printf(\(dq\\n\(dq) will print a new line.
-<<<<<<< HEAD
-=======
+). Special characters like a new line are escaped, for example _printf(\(dq\\n\(dq) will print a new line
 .sp
->>>>>>> 02157623c49717c0cc3da48e3694531046a1ef47
 .B Conversion specifiers
 .sp
 These are the characters that specify the type of the variable that needs to be printed. The variables to be printed are separated from the format string with a comma. Each variable passed to _printf need to have a conversion specifier.
@@ -79,11 +70,8 @@ base.
 .B r, R
 - Respectively print a string in reverse and in ROT13 encryption.
 .sp
-<<<<<<< HEAD
-.B s
-=======
+.B 
 .B S
->>>>>>> 02157623c49717c0cc3da48e3694531046a1ef47
 - Prints a string, but non-printable characters are printed this way: \\x, followed by the ASCII code value in uppercase hexadecimal.
 .sp
 .B p
@@ -113,11 +101,6 @@ That way, _putchar only needs to call write one time, passing to it the whole bu
 .sp
 .SH BUGS
 _printf does not take care of length and precision modifiers yet. For example, _printf(\(dq%hx\(dq) will not produce the same output as the call to the standard library printf.
-<<<<<<< HEAD
-
-.SH AUTHORS
-Minase Alaro and Freweyni Gebremedhin 
-=======
 .SH AUTHORS
 Freweyni Gebremedhin and Mns Alaro
->>>>>>> 02157623c49717c0cc3da48e3694531046a1ef47
+
