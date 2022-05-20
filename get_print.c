@@ -27,11 +27,7 @@ int (*get_print(char s))(va_list, flags_t *)
 		{'S', print_bigS},
 		{'p', print_address},
 		{'%', print_percent}
-<<<<<<< HEAD
-	        };
-=======
-	};
->>>>>>> 7417cf1f98e945862bd77bc55c5a2985cb24fa11
+		};
 	int flags = 14;
 
 	register int i;
@@ -40,4 +36,4 @@ int (*get_print(char s))(va_list, flags_t *)
 		if (func_arr[i].c == s)
 			return (func_arr[i].f);
 	return (NULL);
-}
+} 
