@@ -19,7 +19,11 @@ int print_int(va_list l, flags_t *f)
 	if (n <= 0)
 		res++;
 	print_number(n);
+<<<<<<< HEAD
         return (res);
+=======
+	return (res);
+>>>>>>> 60715eb89e94bce96cda1737f90882e685d31564
 }
 
 /**
@@ -81,5 +85,9 @@ int count_digit(int i)
 		d++;
 	}
 	return (d);
+<<<<<<< HEAD
 } 
 
+=======
+}
+>>>>>>> 60715eb89e94bce96cda1737f90882e685d31564

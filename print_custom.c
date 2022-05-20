@@ -105,4 +105,8 @@ int print_percent(va_list l, flags_t *f)
 	(void)l;
 	(void)f;
 	return (_putchar('%'));
+<<<<<<< HEAD
+}
+=======
 } 
+>>>>>>> 4e60a7f3685c9476e2ea6bb8b0ad164607539766
