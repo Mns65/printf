@@ -108,5 +108,5 @@ These are all the tasks of this project, the ones that are completed link to the
 ---
 
 ### Authors
-* **Tu Vo** - [tuvo1106@gmail.com](https://github.com/tuvo1106)
-* **Laura Roudge** - [laura.derohan@gmail.com](https://github.com/lroudge)
+* **Freweyni Gebremedhin**{ - [github.com/mns65]](https://github.com/Freifrei)
+* ** Mns Alaro** - [laura.derohan@gmail.com](https://github.com/mns65)
