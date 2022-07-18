@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * get_flag - turns on flags if _printf finds
@@ -29,4 +29,4 @@ int get_flag(char s, flags_t *f)
 	}
 
 	return (i);
-} 
+}

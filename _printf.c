@@ -1,10 +1,10 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _printf - produces output accourding to a format
+ * _printf - produces output according to a format
  * @format: format string containing the characters and the specifiers
- * Description: this function will call the get_print() functison that will
- * determine which printing functsion to call depending on the conversion
+ * Description: this function will call the get_print() function that will
+ * determine which printing function to call depending on the conversion
  * specifiers contained into fmt
  * Return: length of the formatted output string
  */
@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 	va_list arguments;
 	flags_t flags = {0, 0, 0};
 
-	rigister int count = 0;
+	register int count = 0;
 
 	va_start(arguments, format);
 	if (!format || (format[0] == '%' && !format[1]))

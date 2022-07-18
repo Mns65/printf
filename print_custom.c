@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_bigS - Non printable characters
@@ -105,4 +105,4 @@ int print_percent(va_list l, flags_t *f)
 	(void)l;
 	(void)f;
 	return (_putchar('%'));
-} 
+}

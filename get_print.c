@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * get_print - selects the right printing function
@@ -36,4 +36,4 @@ int (*get_print(char s))(va_list, flags_t *)
 		if (func_arr[i].c == s)
 			return (func_arr[i].f);
 	return (NULL);
-} 
+}

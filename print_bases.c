@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_hex - prints a number in hexadecimal base,
@@ -23,7 +23,6 @@ int print_hex(va_list l, flags_t *f)
 }
 
 /**
- * print_hex_big - prints a number in hexadecimal bas
  * print_hex_big - prints a number in hexadecimal base,
  * in uppercase
  * @l: va_list arguments from _printf
@@ -82,4 +81,4 @@ int print_octal(va_list l, flags_t *f)
 		count += _putchar('0');
 	count += _puts(str);
 	return (count);
-} 
+}

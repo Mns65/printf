@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_int - prints an integer
@@ -18,7 +18,7 @@ int print_int(va_list l, flags_t *f)
 		res += _putchar('+');
 	if (n <= 0)
 		res++;
-	print_number(n)
+	print_number(n);
 	return (res);
 }
 
@@ -81,4 +81,4 @@ int count_digit(int i)
 		d++;
 	}
 	return (d);
-} 
+}

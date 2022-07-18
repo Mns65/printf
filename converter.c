@@ -1,9 +1,10 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
  * convert - converts number and base into string
  * @num: input number
  * @base: input base
- * @lowercase: flag if hexa values need to be lower case 
+ * @lowercase: flag if hexa values need to be lowercase
  * Return: result string
  */
 char *convert(unsigned long int num, int base, int lowercase)
@@ -19,8 +20,8 @@ char *convert(unsigned long int num, int base, int lowercase)
 	*ptr = '\0';
 	do {
 		*--ptr = rep[num % base];
-		num/= base;
+		num /= base;
 	} while (num != 0);
-	
+
 	return (ptr);
-} 
+}
